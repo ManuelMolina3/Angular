@@ -1,0 +1,11 @@
+<ngb-pagination
+	[collectionSize]="NumeroDePeliculas"
+	[(page)]="paginaActual"
+	[maxSize]="3"
+    [pageSize]="20"
+	[rotate]="true"
+	(cambioPag)="paginacion()"
+></ngb-pagination>
+<div class="row m-auto">
+    <app-movie-item class="col-3 mt-4" *ngFor="let movie of movieList" [movie]="movie"></app-movie-item>
+</div>
