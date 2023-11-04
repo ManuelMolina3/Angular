@@ -1,1 +1,17 @@
+<div class="w-60 row">
+    <div class="col-2">
+        <img [src]="getUrlImg()" alt="imagen de la pelicula" style="margin-top: 6%; margin-left: 6%; border-radius: 10%;">
+    </div>
+    <div class="col-2">
+        <p style="margin-top: 20%;">Nombre: {{peliculaSeleccionada.title}}</p>
+        <p>Idioma original: {{peliculaSeleccionada.original_language}}</p>
+        <p>Fecha: {{peliculaSeleccionada.release_date}}</p>
+        <p>Duracion: {{peliculaSeleccionada.runtime}} min</p>
+    </div>
+</div>
+<div>
+    <h3 style="text-align: center;">Trailers</h3>
+    <hr>
+
+</div>
 

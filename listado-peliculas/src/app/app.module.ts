@@ -11,6 +11,7 @@ import{HttpClientModule} from '@angular/common/http';
 import { PageHomeComponent } from './ui/page-home/page-home.component';
 import { PageDetailsComponent } from './ui/page-details/page-details.component';
 import { PageNotFoundComponent } from './ui/page-not-found/page-not-found.component';
+import { NavComponent } from './components/nav/nav.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { PageNotFoundComponent } from './ui/page-not-found/page-not-found.compon
     MovieDetailsComponent,
     PageHomeComponent,
     PageDetailsComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    NavComponent
   ],
   imports: [
     BrowserModule,
